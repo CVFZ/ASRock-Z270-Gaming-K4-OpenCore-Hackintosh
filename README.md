@@ -10,3 +10,4 @@ OpenCore Version: 0.7.5
 
 Hinweis: In diesem OpenCore-EFI-Ordner befindet sich __keine__ USBMap.kext, d.h. diese muss selbst erstellt werden. Dazu am besten USBMap verwnden: https://github.com/corpnewt/USBMap Diese Kext ist für macOS Big Sur und Monterey erforderlich!
 
+Es wird der ApfsDriverLoader verwendet, da sonst kein APFS gefunden wurde (liegt vermutlich daran, dass macOS auf der 2. SSD installiert isst).
